@@ -2,6 +2,8 @@
 
 .bg-container {
     height: 100vh;
+    overflow:auto;
+    padding: 20px;
 }
 
 .image {
@@ -26,11 +28,13 @@
 
 .card-2 {
     padding: 20px;
+    display: flex;
+    flex-wrap:wrap;
 }
 
 .image-1 {
     height: 150px;
-    width: 250px;
+    width: 200px;
     border-radius: 15px;
     margin: 10px;
 }
@@ -39,7 +43,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .bg-first-container {
@@ -83,7 +86,9 @@
     border-radius: 10px;
     padding: 5px;
     width: 100px;
+    margin-left: 30px;
     margin-right: 30px;
+    margin-top:20px;
 }
 
 .bg-button {
